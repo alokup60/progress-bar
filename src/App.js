@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import ProgressBar from "./component/ProgressBar";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <ProgressBar />
+    </div>
+  );
 }
 
 export default App;
